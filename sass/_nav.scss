@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegador {
+    font-size: 30px;
+    padding: 15px 0px 15px 0px;
+    background-color: orange;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.btn-group {
+    width: 33%;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+        .dropdown-menu {
+            background-color: orange;
+            color: black;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+        }   
+        .dropdown-toggle {  
+            background-color: orange;
+            color: black;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .dropdown-item {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+}
