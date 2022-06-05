@@ -1,10 +1,11 @@
 .galeria {
     min-height: 800px;
     width: 100%;
-    background-color: orange;
+    background-color: brown;
     display: grid;
     padding: 20px;
     gap: 10px;
+    border-radius: 20px;
   }
   
   .img {
@@ -151,4 +152,17 @@
     grid-column: 3/4;
     grid-row: 3/4;
   }
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.images2 {
+  width: 60%;
+  height: 50%;
+  border-radius: 10px;
+  padding: 5px;
 }

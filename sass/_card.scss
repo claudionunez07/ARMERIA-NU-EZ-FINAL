@@ -1,10 +1,27 @@
 .card {
-    margin-left: 200px;
-        .card-text {
-                text-transform: uppercase;
-                color: black;
-                margin-bottom: 10px;
-                background-color: orange;
-                border-radius: 10px;
-        }
+        background-color: black;
+        font-size: large;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        max-height: 800px;
+        max-width: 800px;
+        margin-left: 20%;
+        margin-right: 25%;
+                .card-text {
+                        text-transform: uppercase;
+                        color: white;
+                        margin-bottom: 10px;
+                        background-color: brown;
+                        border-radius: 10px;
+                        font-weight: bold;
+                        width: 230%;
+                }
+                .card-body {
+                        width: 50%;
+                        font-size: large;
+                }
+                .googleMap {
+                        width: 110%;
+                        height: 400px;
+                } 
 }
