@@ -1,18 +1,23 @@
 body {
-    background-color: black;
+    background-color: gray;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navegador {
     font-size: 30px;
-    padding: 15px 0px 15px 0px;
-    background-color: black;
+    padding: 5px 5px 5px 5px;
+    background-color: orange;
     border-radius: 20px;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
+.logo{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
 .content {
     max-width: 1170px;
     margin-left: auto;
@@ -27,8 +32,8 @@ body {
     margin-bottom: 200px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-        .dropdown-menu {
+    font-weight: bold;        
+    .dropdown-menu {
             background-color: orange;
             color: black;
             text-transform: uppercase;
